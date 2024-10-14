@@ -45,8 +45,8 @@ h1 {
 
 .course-item__body {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  justify-content:space-between;
+  align-items:center;
   gap: 0.6rem;
   flex: 1;
   margin-bottom: 1.5rem;
@@ -65,6 +65,9 @@ h1 {
 
 .course-item__body .rate {
   white-space: nowrap;
+  display: flex;
+  align-items: center;
+ 
 }
 
 .course-item__img img {
@@ -93,4 +96,10 @@ h1 {
 
 .course-item__footer .caption .badge {
   font-weight: bold;
+}
+.star{
+  width: 15px;
+  height: 15px;
+  margin-right: 4px;
+  padding-bottom: 2.5px;
 }
